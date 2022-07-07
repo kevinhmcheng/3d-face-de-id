@@ -1,4 +1,4 @@
-# Benchmarking 3D Face De-identification with Preserving Facial Attibutes [1]
+Benchmarking 3D Face De-identification with Preserving Facial Attibutes [1]
 
 
 This package provides the implementation codes for reproducing the exact experimental results presented in this paper [1].
