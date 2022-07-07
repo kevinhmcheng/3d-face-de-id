@@ -1,4 +1,4 @@
-# Benchmarking 3D Face De-identification with Preserving Facial Attibutes [1]
+# Benchmarking 3D Face De-identification with Preserving Facial Attributes [1]
 
 
 This package provides the implementation codes for reproducing the exact experimental results presented in this paper [1].
@@ -24,7 +24,7 @@ This package is tested using a computer system: with Ubuntu 18.04.6 LTS and Pyto
 
 
 ## References
-- [1] Kevin H. M. Cheng, Zitong Yu, Haoyu Chen, and Guoying Zhao. Benchmarking 3D Face De-identification with Preserving Facial Attibutes. In International Conference on Image Processing (ICIP), 2022.
+- [1] Kevin H. M. Cheng, Zitong Yu, Haoyu Chen, and Guoying Zhao. Benchmarking 3D Face De-identification with Preserving Facial Attributes. In International Conference on Image Processing (ICIP), 2022.
 - [2] https://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html
 - [3] https://github.com/yunjey/stargan
 - [4] V. Mirjalili, S. Raschka, A. Namboodiri and A. Ross. Semi-adversarial networks: Convolutional autoencoders for imparting privacy to face images. International Conference on Biometrics (ICB), 2018.
