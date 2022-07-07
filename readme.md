@@ -7,15 +7,15 @@ This package is tested using a computer system: with Ubuntu 18.04.6 LTS and Pyto
 
 
 ## Detailed steps:
-1. Download BUFE3D Dataset and StarGAN pre-trained models.
+### 1. Download BUFE3D Dataset and StarGAN pre-trained models.
 - Download the BUFE3D dataset from the original weblink [2].
 - Download the pre-trained StarGAN_celeba_128 models (200000-D.ckpt and 200000-G.ckpt) from the original weblink [3] and put them in "GAN/".
 
-2. 2D/3D Image Pre-processing
+### 2. 2D/3D Image Pre-processing
 - Edit the variable 'datapath' in "matlab/preprocess_images.m" according to the directories of the downloaded dataset.
 - Execute "matlab/preprocess_images.m". This step generates the "Data" folder.
 
-3. Classification, De-identification and Evaluation
+### 3. Classification, De-identification and Evaluation
 - Execute "./main.sh"
 - 3a.Train/Test Classification Models for Biometric, Expression, Gender and Ethnicity Recognition. This step generates the "task" folder.
 - 3b.Train the De-identification Models. The AE/GAN backbone is adopted from [4] and [5] respectively. This step generates the "AE/constraint-2D", "AE/constraint-Depth", "GAN/constraint-2D", "GAN/constraint-Depth" folders.
